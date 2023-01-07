@@ -1,0 +1,885 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+li,
+a,
+button {
+  background: ;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+   justify-content:space-evenly;
+   display: flex;
+   align-items: center;
+   text-align:justify;
+   height: 150px;
+}
+
+.socials .redditicon, .socials .twittericon, .socials .discordicon, .socials .telegramicon{
+  padding: 20px;
+  padding-left: 20px;
+ }
+
+.nav_links{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+ .nav_links .litokenomics, .nav_links .libuy, .nav_links .liroadmap{
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+.preliminary, .buy {
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 125px;
+  height: 125px;
+  
+}
+
+.nav_links {
+  list-style: none;
+}
+
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.socials a {
+  transition: all 0.3s ease 0s;
+}
+
+.socials a:hover {
+  color: #0088a9;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+    transition: all 0.3s ease 0s:
+}
+
+.buybtn {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.buybtn:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.banner {
+  justify-content:center;
+  display: flex;
+  align-items: center;
+  flex-direction:column-row;
+  text-align:justify;
+  padding: 10px 1%;
+  margin: 3%;
+}
+
+.banner p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: left;
+}
+
+.bold {
+  color: #0078FF;
+}
+
+.bold:hover {
+  color: #0078FF;
+  text-decoration: underline #0078FF;
+}
+
+.banner h2{
+  font-family: "Muksa", sans-serif;
+  font-weight: 700;
+  color: #edf0f1;
+}
+
+.wagmiimg {
+  width: 500px;
+}
+
+.wpbtn{
+  color: #0088a9;
+  padding: 12px 16px;
+  background-color: #ebfdfd;
+  border-color: rgba(0,136,169,1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.wpbtn:hover{
+  background-color: rgba(0,136,169,1);
+  border-color: #ebfdfd;
+  color: #ebfdfd;
+}
+
+.wpicon{
+  background-color: transparent;
+  font-size: 15px;
+  align-items: center;
+}
+
+.rfbtn{
+  color: #0088a9;
+  padding: 12px 16px;
+  background-color: #ebfdfd;
+  border-color: rgba(0,136,169,1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.rfbtn:hover{
+  background-color: rgba(0,136,169,1);
+  border-color: #ebfdfd;
+  color: #ebfdfd;
+}
+
+.rficon{
+  background-color: transparent;
+  font-size: 15px;
+  align-items: center;
+}
+
+.whitepaper .wpbtn, .reflections .rfbtn{
+  justify-content:center;
+  display: flex;
+  align-items: center;
+  text-align:justify;
+}
+
+.buttons{
+justify-content:center;
+display: flex;
+align-items: center;
+text-align:center;
+}
+
+.whitepaper{
+  padding: 20px 3%;
+  margin: 2%;
+}
+
+.reflections{
+  padding: 20px 3%;
+  margin: 2%;
+}
+
+.bannerimg {
+    width: 100%;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.listings{
+  background: #111;
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memetools{
+  background: #111;
+  height: 150px;
+  width: 150px;
+  margin: 100px;
+}
+
+.coinmarketcap{
+  background: #111;
+  height: 75px;
+  width: auto;
+  margin: 100px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px rgba(0,136,169,0.8);
+    
+}
+
+.token{
+    font-family: "Muksa", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 30px 10%;
+    margin-top: 5%;
+    text-align: center;
+    box-sizing: border-box;
+    align-items:center;
+    text-shadow: 3px 3px rgba(0,136,169,0.8);
+}
+
+
+.tokenomics {
+   justify-content:center;
+   display: flex;
+   align-items: center;
+   text-align:justify;
+}
+
+.icon {
+  background-color: rgba(34, 222, 255, 0.2);
+  border-radius: 10px 10px 10px 10px;
+  font-size: 40px;
+  
+}
+
+.card1 {
+  width: 300px;
+  height: 275px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+  max-width: 300px;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  background-color:#ebfdfd;
+  padding: 20px 3%;
+  margin: 2%;
+}
+
+.card2 {
+  width: 300px;
+  height: 275px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+  max-width: 300px;
+  text-align: center;
+  padding: 20px 3%;
+  border-radius: 30px 30px 30px 30px;
+  background-color:#ebfdfd;
+  margin: 2%;
+}
+
+.card3 {
+  width: 300px;
+  height: 275px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+  max-width: 300px;
+  text-align: center;
+  padding: 20px 3%;
+  border-radius: 30px 30px 30px 30px;
+  background-color:#ebfdfd;
+  margin: 2%;
+}
+
+.card4 {
+  width: 300px;
+  height: 275px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+  max-width: 300px;
+  text-align: center;
+  padding: 20px 3%;
+  border-radius: 30px 30px 30px 30px;
+  background-color:#ebfdfd;
+  margin: 2%;
+}
+
+.text1, .text2, .text3, .text4 {
+  background-color: transparent;
+}
+.text5, .text6, .text7,  .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, .text17, .text18{
+  background-color: transparent;
+}
+
+.tokenomics a{
+  color: #0078FF;
+}
+
+.tokenomics a:hover {
+  color: #0078FF;
+  text-decoration: underline #0078FF;
+}
+
+.buy {
+   justify-content: space-between;
+   display: flex;
+   align-items:center;
+   flex-direction:row;
+   padding: 10px 15%;
+   margin-top: 7%;
+}
+
+.buy h2 {
+  font-family: "Muksa", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5%;
+  color: white;
+  text-shadow: 3px 3px rgba(0,136,169,0.8);
+  font-size: 30px;
+}
+
+.howto {
+  width: auto;
+  height: 700px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.poo {
+  width: auto;
+  height: 450px;
+}
+
+.calcheading{
+  font-family: "Muksa", sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 7%;
+  color: white;
+  text-shadow: 3px 3px rgba(0,136,169,0.8);
+}
+
+.calcp{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  font-size: 16px;
+}
+.calculator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.input{
+  padding: 15px;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-inline-start: 16px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  border-radius: 10px 10px 10px 10px;
+  border-width: 1px;
+  background-color: #ebfdfd;
+  border-style: solid;
+}
+
+.inputbtn{
+  padding: 12px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #0088a9;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.inputbtn:hover{
+  background-color: rgba(0,136,169,0.8);
+}
+
+.preliminary{
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px rgba(0,136,169,0.8);
+  text-align: center;
+}
+
+.roadmap{
+  max-width: 1080px;
+  margin-left: 270px;
+  margin-right: 270px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.roadmap .row{
+  display: flex;
+}
+
+.roadmap .center-line{
+  position: absolute;
+  height: 1800px;
+  width: 4px;
+  background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 65px;
+}
+
+.roadmap .row section{
+width: 300px;
+height: 150px;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+background-color:#ebfdfd;
+position: relative;
+}
+
+.row section .rowicon{
+  position: absolute;
+  background: #f2f2f2;
+  height: 20px;
+  width: 20px;
+  padding: 7px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgba(0,136,169,0.8);
+  top: 59px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+
+}
+
+.row section .check{
+  height: 60px;
+  width: 60px;
+  background: transparent;
+}
+.roadmap .memelisting{
+justify-content: flex-start;
+}
+
+.memelisting section .rowicon{
+  right: -59px;
+}
+
+.memelisting section::before{
+  right: -7px;
+}
+
+.roadmap .cmclisting{
+  justify-content: flex-end;
+}
+
+.cmclisting section::before{
+  left: -7px;
+}
+
+.cmclisting section .rowicon{
+ left: -59px;
+}
+
+
+
+.roadmap .cglisting{
+ justify-content: flex-start;
+}
+
+.cglisting section::before{
+  right: -7px;
+}
+
+.cglisting section .rowicon{
+  right: -59px;
+}
+
+.roadmap .footage{
+ justify-content: flex-end;
+}
+
+.footage section::before{
+  left: -7px;
+}
+
+.footage section .rowicon{
+  left: -59px;
+}
+
+.roadmap .dapp{
+ justify-content: flex-start;
+}
+
+.dapp section::before{
+  right: -7px;
+}
+
+.dapp section .rowicon{
+  right: -59px;
+}
+
+.roadmap .private{
+ justify-content: flex-end;
+}
+
+.private section::before{
+  left: -7px;
+}
+
+.private section .rowicon{
+  left: -59px;
+}
+
+.roadmap .newcharacters{
+ justify-content: flex-start;
+}
+
+.newcharacters section::before{
+  right: -7px;
+}
+
+.newcharacters section .rowicon{
+  right: -59px;
+}
+
+.roadmap .nft{
+ justify-content: flex-end;
+}
+
+.nft section::before{
+  left: -7px;
+}
+
+.nft section .rowicon{
+  left: -59px;
+}
+
+.roadmap .merch{
+  justify-content: flex-start;
+}
+
+.merch section::before{
+  right: -7px;
+}
+
+.merch section .rowicon{
+  right: -59px;
+}
+
+.roadmap .awareness{
+ justify-content: flex-end;
+}
+
+.awareness section::before{
+  left: -7px;
+}
+
+.awareness section .rowicon{
+  left: -59px;
+}
+
+.roadmap .lore{
+ justify-content: flex-start;
+}
+
+.lore section::before{
+  right: -7px;
+}
+
+.lore section .rowicon{
+  right: -59px;
+}
+
+.roadmap .ama{
+  justify-content: flex-end;
+}
+
+.ama section::before{
+  left: -7px;
+}
+
+.ama section .rowicon{
+  left: -59px;
+}
+
+.roadmap .crowdsourcing{
+  justify-content: flex-start;
+}
+
+.crowdsourcing section::before{
+  right: -7px;
+}
+
+.crowdsourcing section .rowicon{
+  right: -59px;
+}
+
+
+
+footer p{
+  background: #111;
+  height: 100px;
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
+
+.footer-content p{
+  margin-top: 45px;
+  padding: 45px;
+}
+
+@media only screen and (max-width: 1224px) {
+  .wagmiimg{
+    height: 300px;
+    width: 350px;
+  }
+
+  .whitepapermobile{
+    display:;
+    font-weight: 500;
+    font-size: 150px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .banner p, h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #c1d5db;
+    text-decoration: none;
+    text-align: left;
+}
+
+  button{
+    display: none;
+  }
+
+  .item-label{
+    display:none;
+    padding: 1px;
+  }
+
+  .logo {
+    cursor: pointer;
+    width: auto;
+    height: 130px;
+    
+  }
+
+  nav{
+    display: none;
+  }
+  
+ 
+ .socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .socials .redditicon, .socials .twittericon, .socials .discordicon, .socials .telegramicon{
+  padding-right: 20px;
+ }
+ 
+ .memetools{
+ background: #111;
+ height: 100px;
+ width: auto;
+ margin: 20px;
+ }
+
+ .coinmarketcap{
+  background: #111;
+  height: auto;
+  width: 200px;
+  margin: 20px;
+ }
+
+  .tokenomics {
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    text-align:justify;
+   }
+  
+   .card1 {
+    width: 300px;
+    height: 175px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+    max-width: 300px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    background-color:#ebfdfd;
+    padding: 20px 3%;
+    margin: 2%;
+  }
+  
+  .card2 {
+    width: 300px;
+    height: 175px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 3%;
+    border-radius: 30px 30px 30px 30px;
+    background-color:#ebfdfd;
+    margin: 2%;
+  }
+  
+  .card3 {
+    width: 300px;
+    height: 175px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 3%;
+    border-radius: 30px 30px 30px 30px;
+    background-color:#ebfdfd;
+    margin: 2%;
+  }
+  
+  .card4 {
+    width: 300px;
+    height: 175px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    box-shadow: inset 0px 0px 20px 0px rgba(0,136,169,0.8);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 3%;
+    border-radius: 30px 30px 30px 30px;
+    background-color:#ebfdfd;
+    margin: 2%;
+  }
+
+  .buy {
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    padding: 10px 15%;
+    margin-top: 7%;
+  }
+
+  .howto {
+    width: 400px;
+    height: 600px;
+    border-radius: 30px 30px 30px 30px;
+  }
+
+  .preliminary{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 3px 3px rgba(0,136,169,0.8);
+    text-align: center;
+  }
+
+    .roadmap{
+      max-width: 1080px;
+      margin: 50px auto;
+      padding: 0 20px;
+      position: relative;
+    }
+  
+    .roadmap .row{
+      display: flex;
+      justify-content: flex-start;
+      
+    }
+  
+    .roadmap .center-line{
+      left: 38px;
+      height: 2170px;
+    }
+    
+    .roadmap .row{
+      margin: 30px 0 3px 60px;
+    }
+  
+    .roadmap .row section{
+      width: 100%;
+    }
+  
+    .memelisting section .rowicon{
+      left: -59px;
+    }
+  
+    .cglisting section .rowicon{
+      left: -59px;
+    }
+  
+    .dapp section .rowicon{
+      left: -59px;
+    }
+  
+    .newcharacters section .rowicon{
+      left: -59px;
+    }
+  
+    .merch section .rowicon{
+      left: -59px;
+    }
+  
+    .lore section .rowicon{
+      left: -59px;
+    }
+  
+    .crowdsourcing section .rowicon{
+      left: -59px;
+    }
+    }
+  
+@media (max-width: 772px){
+
+  .roadmap .row{
+    margin: 30px 0 3px 60px;
+  }
+  .roadmap .row section{
+    width: 100%;
+  }
+}
